@@ -16,6 +16,10 @@
 .env.test.local
 .env.production.local
 
+# Build output
+/dist
+/build
+
 # Ignore logs and temp files
 npm-debug.log*
 yarn-debug.log*
