@@ -1,5 +1,5 @@
 # Ignore history folder
-/history/
+.history/
 
 # Ignore node_modules folders in both client and server
 /client/node_modules/
