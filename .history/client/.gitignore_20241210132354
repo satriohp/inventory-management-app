@@ -1,0 +1,69 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# dependencies
+/node_modules            # Mengabaikan folder node_modules yang berisi dependensi yang dapat diinstal ulang
+/.pnp                    # Mengabaikan file terkait PnP (Plug'n'Play) jika menggunakan Yarn
+.pnp.js                  # Mengabaikan file konfigurasi PnP
+
+# testing
+/coverage                # Mengabaikan folder hasil pengujian yang dihasilkan oleh alat pengujian seperti Jest
+
+# production
+/build                   # Mengabaikan folder build hasil kompilasi aplikasi React atau bundler lainnya
+
+# misc
+.DS_Store                # Mengabaikan file konfigurasi macOS
+.env.local               # Mengabaikan file konfigurasi lokal
+.env.development.local   # Mengabaikan file konfigurasi untuk pengembangan lokal
+.env.test.local          # Mengabaikan file konfigurasi untuk pengujian lokal
+.env.production.local    # Mengabaikan file konfigurasi untuk produksi lokal
+
+# log files
+npm-debug.log*           # Mengabaikan file log debug npm
+yarn-debug.log*          # Mengabaikan file log debug yarn
+yarn-error.log*          # Mengabaikan file log error yarn
+
+# Folder history
+history/                 # Mengabaikan folder yang berisi file riwayat atau file perubahan sementara
+
+# PostgreSQL
+*.db                     # Mengabaikan file database jika menggunakan SQLite (tidak perlu dengan PostgreSQL)
+*.sql                    # Mengabaikan file dump database PostgreSQL jika ada
+
+# OS-specific files
+Thumbs.db                # Mengabaikan file konfigurasi Windows
+
+# IDE and Editor files
+.vscode/                 # Folder pengaturan VSCode
+.idea/                   # Folder pengaturan IntelliJ/JetBrains IDE
+
+# Temporary files (editor-specific)
+*.swp                    # Mengabaikan file swap vim
+*.swo                    # Mengabaikan file swap vim
+
+# Miscellaneous
+dist/                    # Folder dist (output build jika menggunakan Webpack atau bundler lain)
+coverage/                # Folder hasil testing yang dilaporkan oleh alat seperti Jest
+
+# Other generated files
+*.tgz                    # Mengabaikan file tarball jika digunakan untuk distribusi
+*.bak                    # Mengabaikan file backup
