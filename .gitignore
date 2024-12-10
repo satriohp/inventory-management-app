@@ -24,3 +24,8 @@ yarn-error.log*
 # Ignore system files (macOS, Linux, Windows)
 .DS_Store
 Thumbs.db
+
+
+.git/
+
+
